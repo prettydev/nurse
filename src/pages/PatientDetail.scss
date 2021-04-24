@@ -1,0 +1,11 @@
+@import "../App.scss";
+
+.settings-container {
+    position: fixed;
+    left: 320px;
+    width: 100%;
+    bottom: 0px;
+    padding: 24px;
+    border-top: 1px solid $UILine;
+    background-color: $GrayL95;
+}

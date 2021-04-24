@@ -1,0 +1,63 @@
+@import "../../App.scss";
+
+.ant-card-body {
+    padding: 10px;
+}
+
+.bed-card {
+    border-radius: 8px;
+}
+
+.cell-full {
+    width: 12px;
+    height: 16px;
+}
+
+.zeroLight {
+    background: $White_a12;
+}
+
+.zeroDark {
+    background: $Gray_a12;
+}
+
+.over-1 {
+    background: $Over-1;
+}
+
+.over-5 {
+    background: $Over-5;
+}
+
+.over-10 {
+    background: $Over-10;
+}
+
+.over-30 {
+    background: $Over-30;
+}
+
+.over-60 {
+    background: $Over-60;
+}
+
+.over-90 {
+    background: $Over-90;
+}
+
+.over-120 {
+    background: $Over-120;
+}
+
+.bed-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.timer-overlay {
+    color: rgb(255,255,255);
+    @extend %Primary;
+}

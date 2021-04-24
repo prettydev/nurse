@@ -1,0 +1,26 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+public/vars.json
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# editor files
+.idea/
+
+# Leave checked in for now
+# until we can add to vars.json
+# for service discovery
+# aws-exports.js

@@ -1,0 +1,9 @@
+@import '../App.scss';
+
+.help-topic {
+    width: 326px;
+    margin: 32px;
+    cursor: pointer;
+    border: 1px solid $UILine;
+    padding: 2px;
+}

@@ -1,0 +1,90 @@
+@import '../../App.scss';
+
+.logo {
+    text-align: center;
+    height: 144px;
+}
+
+.logo-image {
+    margin: 16px 16px 0px 16px;
+}
+
+.logo-container {
+    height: '186px';
+    position: 'fixed';
+    top: 0;
+    z-index: '3';
+}
+
+.sidebar-alerts-container {
+    position: fixed;
+    top: 186px;
+    left: 0px;
+    bottom: 48px;
+    overflow-y: auto;
+}
+
+.sidebar-status-container {
+    position: fixed;
+    height: 48px;
+    left: 0px;
+    bottom: 0px;
+    padding: 0 16px 0 8px;
+    border-top: 1px solid $UILine;
+}
+
+.Noti_Title {
+    @extend %Primary;
+    font-size: 18px;
+    color: $MainText;
+    text-align: left;
+}
+
+%Noti_Item_BedId {
+    @extend %Primary;
+    float: left;
+    margin-left: 16px;
+    font-size: 20px;
+    text-align: left;    
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Noti_Item_BedId_Short {
+    @extend %Noti_Item_BedId;
+    width: 96px;
+}
+
+.Noti_Item_BedId_Long {
+    @extend %Noti_Item_BedId;
+    width: 112px;
+    margin-right: 16px;
+}
+
+%Noti_Item_EventName {
+    @extend %Primary;
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.Noti_Item_EventName_Short {
+    @extend %Noti_Item_EventName;
+    width: 154px;
+    position: relative;
+}
+
+.Noti_Item_EventName_Long {
+    @extend %Noti_Item_EventName;
+    width: 122px;
+    position: relative;
+}
+
+.warning-text {
+}
+
+.warning-image {
+    margin-right: 14px;
+}
+

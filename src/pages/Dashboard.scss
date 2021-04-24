@@ -1,0 +1,57 @@
+@import "../App.scss";
+
+.ant-tabs-bar {
+    margin: 0;
+}
+
+.header-button-dd {
+    padding: 4px;
+}
+
+.header-button {
+    padding: 4px 0px;
+    border-bottom: 1px solid $Focus_a25;
+}
+
+.header-search {
+    border: none;
+    padding: 0 4px;
+    margin-top: 10px;
+
+    ::-webkit-input-placeholder {
+        color: $Focus;
+    }
+    :-moz-placeholder {
+        color: $Focus;
+    }
+    ::-moz-placeholder {
+        color: $Focus;
+    }
+    :-ms-input-placeholder {
+        color: $Focus;
+    }
+}
+
+.list-view-row {
+  cursor: pointer;
+}
+
+.list-view-settings-col {
+  @extend %GeneralUI;
+  color: $Focus;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.list-view-border-right {
+  border-right: 1px solid rgba(139, 138, 153, 0.25);
+}
+
+.list-view-setting-reposition-time {
+  font-size: 20px;
+}
+
+.list-view-setting-reposition-time:after {
+    content: "\00a0";
+}

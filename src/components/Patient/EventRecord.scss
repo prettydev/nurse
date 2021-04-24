@@ -1,0 +1,26 @@
+@import '../../App.scss';
+
+.frozenContainer {
+    width: 100%;
+    overflow-x: scroll;
+    padding-left: 11.5em;    
+    overflow-y: visible;    
+}
+
+.headcol {
+    position: absolute;
+    background: $White;
+    width: 11em;
+    left: 0;
+    top: auto;
+
+    border-top-width: 1px;
+    padding: 0px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+}
+
+.rowheight {
+    height: 36px;
+}

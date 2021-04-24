@@ -1,0 +1,341 @@
+// Text
+$White: rgb(255, 255, 255);
+$White_a12: rgba(255, 255, 255, 0.12);
+$Black: rgb(0, 0, 0);
+$Gray: rgb(139, 138, 153);
+$Gray_a12: rgba(139, 138, 153, 0.12);
+$Gray_a50: rgba(139, 138, 153, 0.5);
+$GrayL80: rgb(197, 194, 209);
+$GrayL95: rgb(240, 241, 242);
+$Main: rgb(49, 51, 66);
+$MainText: rgb(75, 72, 102);
+$Focus: rgb(138, 46, 230);
+$Focus_a25: rgba(138, 46, 230, 0.25);
+$Blur: rgba(139, 138, 153, 0.25);
+$Good: rgb(52, 168, 69);
+$Warn: rgb(241, 104, 36);
+$Error: rgb(193, 35, 49);
+$DialogGb: rgb(245, 246, 247);
+
+// UI
+$UILine: rgba(139, 138, 153, 0.25);
+$CurrentTopbar: rgb(239, 239, 241);
+
+// Pressure
+$Over-1: rgb(212, 224, 244);
+$Over-5: rgb(169, 194, 232);
+$Over-10: rgb(91, 177, 221);
+$Over-30: rgb(82, 133, 209);
+$Over-60: rgb(39, 102, 198);
+$Over-90: rgb(29, 77, 149);
+$Over-120: rgb(20, 51, 99);
+
+// Event
+$Event-Stirring: rgb(38, 179, 52);
+$Event-Sittingup: rgb(246, 176, 0);
+$Event-Leaving: rgb(238, 69, 60);
+$Event-OutofBed: rgb(238, 69, 60);
+$Event-Reposition: rgb(148, 171, 216);
+$Event-Immobile: rgb(70, 51, 189);
+$Event-Reset: rgb(139, 108, 170);
+$Event-NurseMode: rgb(0, 113, 188);
+$Act-high: rgb(138, 46, 230);
+$Act-Low: rgb(197, 194, 209);
+$Act-null: rgb(241, 240, 245);
+
+// Alpha Colors
+$Black-a4: rgba(0, 0, 0, 0.04);
+$Black-a12: rgba(0, 0, 0, 0.12);
+$White-a0: rgba(255, 255, 255, 0);
+$White-a50: rgba(255, 255, 255, 0.5);
+
+$Header: rgb(250, 250, 250);
+$ContentBackground: rgb(235, 236, 237);
+// Fonts
+%Primary {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+%Secondary {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+}
+%Title {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+%GeneralUI {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 13.2px;
+}
+// $Code: ;
+// $Light: ;
+
+// Overall
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.limit-label-width {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.topbar-fixed {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.mt-content {
+  padding-top: 64px;
+  background-color: $ContentBackground;
+}
+
+.ant-layout-content {
+  background-color: $ContentBackground;
+}
+
+.ant-layout-footer {
+  background-color: $ContentBackground;
+}
+
+// Text
+
+.mt-focus-text {
+  @extend %GeneralUI;
+  font-size: 20px;
+  color: $Focus;
+}
+
+.mt-general-ui {
+  @extend %GeneralUI;
+  color: $MainText;
+}
+
+.mt-general-bold {
+  // @extend %GeneralUI;
+  color: $MainText;
+  font-weight: 700;
+}
+
+// Mixins
+@mixin linear-gradient($direction, $color-stops...) {
+  // Direction has been omitted and happens to be a color-stop
+  @if is-direction($direction) == false {
+    $color-stops: $direction, $color-stops;
+    $direction: 180deg;
+  }
+
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+.sider-shadow {
+  .ant-layout-sider-children {
+    -moz-box-shadow: inset -4px 0 9px -7px rgba(0, 0, 0, 0.4), inset -1px 0 9px -7px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: inset -4px 0 9px -7px rgba(0, 0, 0, 0.4), inset -1px 0 9px -7px rgba(0, 0, 0, 0.12);
+    box-shadow: inset -4px 0 9px -7px rgba(0, 0, 0, 0.4), inset -1px 0 9px -7px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+  }
+}
+
+.ant-layout-sider-children {
+  div {
+    z-index: 1;
+  }
+}
+
+h3 {
+  color: $Focus;
+}
+
+// Page Layout
+.header-mt {
+  height: 64px;
+  background-color: $Header;
+}
+
+.header-shadow-mt {
+  height: 4px;
+  background-color: $Black-a4;
+}
+
+.sider-mt {
+  background-color: $Black-a4;
+}
+
+.sider-gradient {
+  background-image: linear-gradient($White-a50 0%, $White-a0 8%);
+}
+
+.content-mt {
+  z-index: 9;
+  background-color: $ContentBackground;
+}
+
+.content-detail-mt {
+  padding: 48px;
+}
+
+.drawer-mt {
+  .ant-drawer-body {
+    background-color: $ContentBackground;
+  }
+}
+
+.drawer-mt {
+  .ant-drawer-header {
+    background: $ContentBackground;
+    border-bottom: 1px solid $UILine;
+  }
+}
+
+// Tabs
+
+.mt-tabs .ant-tabs-top-bar {
+  background: transparent;
+}
+
+.ant-tabs-top-bar {
+  background: rgb(255, 255, 255);
+  padding: 12px 12px 0 20px;
+}
+
+
+// Subpanes
+.subpane {
+  padding: 24px;
+}
+
+.subpane-title {
+  font-size: 32px;
+  color: $Main;
+}
+
+.subpane-sec-title {
+  padding: 8px 0 4px 0;
+  vertical-align: middle;
+  color: $Focus;
+}
+
+.subpane-item {
+  height: 48px;
+  vertical-align: middle;
+}
+.subpane-compact-item {
+  height: 32px;
+  vertical-align: middle;
+}
+
+.subpane-label-col {
+  padding-right: 32px;
+  width: 170px;
+  color: $MainText;
+}
+
+.subpane-value-col {
+  color: $Main;
+}
+
+// MT Form label
+.mt-drawer-form {
+  .ant-form-item-label {
+    text-align: left;
+  }
+}
+
+// MT List Table
+.mt-list-table table {
+  width: auto;
+}
+
+.mt-list-table .ant-table {
+  background-color: transparent;
+}
+
+.mt-list-table .ant-table-small .ant-table-thead {
+  tr {
+    th {
+      background: transparent;
+    }
+  }
+}
+
+.mt-list-table .ant-table-tbody {
+  tr {
+    td {
+      border-bottom: 1px solid $UILine;
+    }
+  }
+}
+
+.mt-list-table .ant-table-thead {
+  tr {
+    th {
+      border-bottom: 1px solid $UILine;
+    }
+  }
+}
+
+.ant-tabs-bar {
+  border-bottom: 1px solid $UILine;
+}
+
+.mt-divider-horizontal {
+  border-top: 1px solid $UILine;
+}
+
+.mt-divider {
+  border-left: 1px solid $UILine;
+  height: 24px;
+}
+
+// Button
+.modal-button {
+  width: 155px;
+}
+
+.mt-row {
+  padding-top: 32px;
+}
+
+.mt-row-content {
+  padding-top: 16px;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  z-index: 12;
+}

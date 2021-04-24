@@ -1,0 +1,80 @@
+@import "../../App.scss";
+
+
+.topbar-main-menu {
+    background-color: $Header;
+}
+.topbar-row {
+    height: 64px;
+}
+
+.main-menu-box {
+    width: 112px;
+    height: 64px;
+    text-align: center;
+    vertical-align: middle;
+    border-left: solid 1px $UILine;
+    color: $MainText;
+    font-size: 12px;
+}
+
+.main-menu-box-current {
+    background: $CurrentTopbar;
+}
+
+.main-menu-box-text {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    overflow: hidden;
+    white-space: nowrap;  
+    @extend %GeneralUI;
+}    
+
+.main-menu-moremenu {
+    height: 64px;
+    text-align: center;
+    padding-top: 16px;
+    border-left: solid 1px $UILine;
+    cursor: pointer;
+}
+
+.topbar-secondary {
+    @extend %Secondary;
+    color: $MainText;
+    padding-right: 21px;
+}
+
+.topbar-secondary a {
+    color: $MainText;
+    &:hover {
+        color:$MainText;
+    }
+}
+
+.topbar-title {
+    @extend %Title;
+    margin-left: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 28px;
+}
+
+.topbar-title-second {
+    @extend %Title;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+
+
+.buttonset {
+    margin-right: 24px;
+    top: -4px;
+}
+
+.menu-icon {
+    margin-right: 8px;
+}

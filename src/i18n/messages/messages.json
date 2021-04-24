@@ -1,0 +1,2292 @@
+[
+  {
+    "id": "Text-UserRoleType-G",
+    "defaultMessage": "Guest",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleType-P",
+    "defaultMessage": "Nurse",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleType-M",
+    "defaultMessage": "Manager",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleType-S",
+    "defaultMessage": "System Administrator",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleID-0",
+    "defaultMessage": "Guest",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleID-1",
+    "defaultMessage": "System Administrator",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleID-2",
+    "defaultMessage": "Manager",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserRoleID-3",
+    "defaultMessage": "Nurse",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-PoorTransmission",
+    "defaultMessage": "Poor Transmission",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-NoTransmission",
+    "defaultMessage": "No Transmission",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-Immobile",
+    "defaultMessage": "Immobile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-Stirring",
+    "defaultMessage": "Stirring",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SittingUp",
+    "defaultMessage": "Sitting Up",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-Leaving",
+    "defaultMessage": "Leaving",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-OutofBed",
+    "defaultMessage": "Out of Bed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-Reposition",
+    "defaultMessage": "Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SensorDisconnected",
+    "defaultMessage": "Sensor Module",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SensorDisconnected2",
+    "defaultMessage": "Disconnected",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SensorReplaced",
+    "defaultMessage": "Replace",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SensorReplaced2",
+    "defaultMessage": "Sensor Module",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-SensorDamaged",
+    "defaultMessage": "Sensor Module Defective",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-PatientCheck-in",
+    "defaultMessage": "Patient Check-in",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-NurseMode",
+    "defaultMessage": "Nurse Mode",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-InUse",
+    "defaultMessage": "In Use",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Event-NotOnBed",
+    "defaultMessage": "Not on Bed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Tool-Poor_Transmission",
+    "defaultMessage": "Poor Transmission",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Tool-SensorModule_Defective",
+    "defaultMessage": "Sensor Module Defective",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Tool-Full_Circle",
+    "defaultMessage": "The Sensor Module has exceeded its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Tool-Degree270_Circle",
+    "defaultMessage": "The Sensor Module is reaching its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-LED-Close",
+    "defaultMessage": "Off",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-LED-Light",
+    "defaultMessage": "Dim",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-LED-Full",
+    "defaultMessage": "Bright",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Volume-No",
+    "defaultMessage": "Mute",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Volume-Low",
+    "defaultMessage": "Normal",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Volume-Loud",
+    "defaultMessage": "Loud",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-English",
+    "defaultMessage": "English",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-Spanish",
+    "defaultMessage": "Spanish",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-Chinese",
+    "defaultMessage": "Chinese",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-Taiwanese",
+    "defaultMessage": "Taiwanese",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-Music",
+    "defaultMessage": "Music",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-AlertMessage-Language-Other",
+    "defaultMessage": "Other",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-01",
+    "defaultMessage": "Jan",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-02",
+    "defaultMessage": "Feb",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-03",
+    "defaultMessage": "Mar",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-04",
+    "defaultMessage": "Apr",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-05",
+    "defaultMessage": "May",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-06",
+    "defaultMessage": "Jun",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-07",
+    "defaultMessage": "Jul",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-08",
+    "defaultMessage": "Aug",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-09",
+    "defaultMessage": "Sep",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-10",
+    "defaultMessage": "Oct",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-11",
+    "defaultMessage": "Nov",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Month-12",
+    "defaultMessage": "Dec",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Date",
+    "defaultMessage": ".XX",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Ok",
+    "defaultMessage": "OK",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Button_Discard_Changes",
+    "defaultMessage": "Discard Changes",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Done",
+    "defaultMessage": "Done",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Cancel",
+    "defaultMessage": "Cancel",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Login",
+    "defaultMessage": "Login",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Patient-Login",
+    "defaultMessage": "Check-in",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Patient-Logout",
+    "defaultMessage": "Check-out",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Transfer",
+    "defaultMessage": "Patient Transfer",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Progress",
+    "defaultMessage": "Proceed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Save",
+    "defaultMessage": "Save",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Change",
+    "defaultMessage": "Change",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Apply",
+    "defaultMessage": "Apply",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Updated",
+    "defaultMessage": "Update",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Edit",
+    "defaultMessage": "Edit",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-AddUser",
+    "defaultMessage": "Add New User",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Add",
+    "defaultMessage": "Add",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-ClearMatching",
+    "defaultMessage": "Clear Pairing",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-UpdateMatching",
+    "defaultMessage": "Update Pairing",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Delete",
+    "defaultMessage": "Remove",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-ApplySettings",
+    "defaultMessage": "Apply",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Bed",
+    "defaultMessage": "Bed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-On",
+    "defaultMessage": "On",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Off",
+    "defaultMessage": "Off",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Left",
+    "defaultMessage": "Left",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Right",
+    "defaultMessage": "Right",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Minutes",
+    "defaultMessage": "mins",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Custom",
+    "defaultMessage": "Custom",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Pairing",
+    "defaultMessage": "Not Paired",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionInterface-Etherent",
+    "defaultMessage": "Etherent",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionInterface-Wifi",
+    "defaultMessage": "Wi-Fi",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Success",
+    "defaultMessage": "Success",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Fail",
+    "defaultMessage": "Failure",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-NotRole",
+    "defaultMessage": "Permission Required",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-NotRole",
+    "defaultMessage": "You do not have the permission to access this function.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Common-Loading",
+    "defaultMessage": "Loading",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Home-No-Patient",
+    "defaultMessage": "&#160;",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Home-No-Patient2",
+    "defaultMessage": "Cognito",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-NOTIFICATION",
+    "defaultMessage": "Notification List",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SortByContent",
+    "defaultMessage": "Sort By",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SortByAlert",
+    "defaultMessage": "Sort By Alert",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SortByTime",
+    "defaultMessage": "Sort By Time",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionStatus1",
+    "defaultMessage": "Connecting",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionStatus2",
+    "defaultMessage": "No Connection",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionStatus3",
+    "defaultMessage": "Connected",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ConnectionStatus4",
+    "defaultMessage": "No DataHub",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BadsInUse",
+    "defaultMessage": "beds in use",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Topbar_PageTitle_Back",
+    "defaultMessage": "Main Page",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Topbar_PageTitle_Back2",
+    "defaultMessage": "Back",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-Search",
+    "defaultMessage": "Patient ID or Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-Display",
+    "defaultMessage": "Grid View",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-DisplayList1",
+    "defaultMessage": "Grid View",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-DisplayList2",
+    "defaultMessage": "List View",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-SortByBedID",
+    "defaultMessage": "Sort By Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title-SortByCheckInTime",
+    "defaultMessage": "Sort By Check-in Time",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Patient-Transfer",
+    "defaultMessage": "Patient Transfer",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Button-Patient-Checkout",
+    "defaultMessage": "Patient Check-out",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title_User_Manager",
+    "defaultMessage": "User Accounts",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title_Box_Manager",
+    "defaultMessage": "Box Pairing",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title_Setting",
+    "defaultMessage": "Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Title_User_Login",
+    "defaultMessage": "User Login",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-More-Help",
+    "defaultMessage": "Help",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-KPI-Dashboard",
+    "defaultMessage": "KPI Dashboard",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Box-Configuration",
+    "defaultMessage": "Box Configuration",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-More-About",
+    "defaultMessage": "About",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-More-Language",
+    "defaultMessage": "Language",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-More-ExitApp",
+    "defaultMessage": "Exit",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PauLine-UserSettings",
+    "defaultMessage": "User settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PauLine-UserLogout",
+    "defaultMessage": "Logout",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Bedside",
+    "defaultMessage": "Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Bedset",
+    "defaultMessage": "Bedside Control Box Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Warning",
+    "defaultMessage": "Alert Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Alarm",
+    "defaultMessage": "Control Box Information",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Info",
+    "defaultMessage": "Sensor Module Information",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-BedsideAlerts",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-IP",
+    "defaultMessage": "IP",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Hardware",
+    "defaultMessage": "FW",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientList-Pad",
+    "defaultMessage": "Pad",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-ACTIVITY",
+    "defaultMessage": "Activity",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-HISTORY",
+    "defaultMessage": "Record",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-Move",
+    "defaultMessage": "Moving",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-Rest",
+    "defaultMessage": "Resting",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-Off-bed",
+    "defaultMessage": "Off Bed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-Unknown",
+    "defaultMessage": "Unknown",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActBlock-Header-Hour",
+    "defaultMessage": "Hour",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_PatientDetail_ActBlock_NoData",
+    "defaultMessage": "No Data",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-ActSunBlock-Header-Last24Hr",
+    "defaultMessage": "Last 24 Hours",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-EVENT",
+    "defaultMessage": "Event",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-RECORDS",
+    "defaultMessage": "Record",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Stirring",
+    "defaultMessage": "Stirring",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Sittingup",
+    "defaultMessage": "Sitting Up",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Leaving",
+    "defaultMessage": "Leaving",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-OutofBed",
+    "defaultMessage": "Out of Bed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Response",
+    "defaultMessage": "Response",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Return",
+    "defaultMessage": "Return",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Reposition",
+    "defaultMessage": "Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Header-Immobile",
+    "defaultMessage": "Immobile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Bottom-Reset",
+    "defaultMessage": "Response",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Bottom-Nursemode",
+    "defaultMessage": "Nurse Mode",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Bottom-ExcellentReposition",
+    "defaultMessage": "Major Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-EventBlock-Bottom-MinorReposition",
+    "defaultMessage": "Minor Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-PressureBlock-PRESSURE",
+    "defaultMessage": "Pressure",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-PressureBlock-RECORDS",
+    "defaultMessage": "Record",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-PatientDetail-PressureBlock-Bottom-Minutes",
+    "defaultMessage": "Pressure Duration / Minutes",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-BedsideSettings",
+    "defaultMessage": "Control Box Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-LightLevel1",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-LightLevel2",
+    "defaultMessage": "Brightness",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-AlertVolume1",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-AlertVolume2",
+    "defaultMessage": "Volume",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-VoiceLanguage1",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-VoiceLanguage2",
+    "defaultMessage": "Language",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-SittingUpAlert1",
+    "defaultMessage": "Sitting-up",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-SittingUpAlert2",
+    "defaultMessage": "Alert",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-CableOrientation1",
+    "defaultMessage": "Cable",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-CableOrientation2",
+    "defaultMessage": "Orientation",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-CableOrientationLeft",
+    "defaultMessage": "Left",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-CableOrientationRight",
+    "defaultMessage": "Right",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-AlertSettings",
+    "defaultMessage": "Dashboard Alerts",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-MainSwitch",
+    "defaultMessage": "Main Switch",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-Stirring",
+    "defaultMessage": "Stirring",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-SittingUp",
+    "defaultMessage": "Sitting-up",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-Leaving",
+    "defaultMessage": "Leaving",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-Reposition",
+    "defaultMessage": "Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-RepositionAlertTime1",
+    "defaultMessage": "Reposition",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-RepositionAlertTime2",
+    "defaultMessage": "Setting",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BedSide-Settings-RepositionAlertTime3",
+    "defaultMessage": "Interval",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Settings_Updated_Success",
+    "defaultMessage": "Settings updated",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-RepositionAlertTime-Title",
+    "defaultMessage": "Reposition Setting",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-Title",
+    "defaultMessage": "Patient Check-in",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-PatientNumber",
+    "defaultMessage": "Patient ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-PatientMessage",
+    "defaultMessage": "The patient is checked in at Bed XXX .",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-PatientMessage2",
+    "defaultMessage": "If you continue with this check-in，the patient will be transferred to the new bed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-BedSide-AlertNumber",
+    "defaultMessage": "Control Box ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Checkin-BedSide-Type",
+    "defaultMessage": "Sensor Module Type",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-Title",
+    "defaultMessage": "Patient Transfer",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-Selected",
+    "defaultMessage": "Please select the new Bed ID：",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-PatientNumber",
+    "defaultMessage": "Patient ID：",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-NowBed",
+    "defaultMessage": "Current Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-BookBed",
+    "defaultMessage": "New Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-NoBed",
+    "defaultMessage": "There is currently no empty bed available for patient transfer.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-Error",
+    "defaultMessage": "Patient Transfer Failed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-Error2",
+    "defaultMessage": "Please check whether the Control Box is connected correctly",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-OK",
+    "defaultMessage": "Patient has been successfully transferred from",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-Transfer-Bed",
+    "defaultMessage": "bed XXXBed1 to bed XXXBed2.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-Title",
+    "defaultMessage": "Patient Check-out",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-Message",
+    "defaultMessage": "Are you sure you wish to check out this patient？",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-PatientNumber",
+    "defaultMessage": "Patient ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-PatientBedNo",
+    "defaultMessage": "Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-Error",
+    "defaultMessage": "Logout failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Patient-CheckOut-Logout",
+    "defaultMessage": "Bed XXXBed Patient Logout.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserLogin-ID",
+    "defaultMessage": "User ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserLogin-PWD",
+    "defaultMessage": "Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_UserLogin_ID_Required",
+    "defaultMessage": "User ID is required",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_UserLogin_PWD_Required",
+    "defaultMessage": "Password is required",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_UserLogin_Forgot_PWD",
+    "defaultMessage": "Forgot Password?",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Button_Reset_PWD",
+    "defaultMessage": "Reset Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_UserLogin_Reset_PWD_Email",
+    "defaultMessage": "Email Address",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_UserLogin_Reset_PWD_Email_Required",
+    "defaultMessage": "Email address required.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserLogout-Title",
+    "defaultMessage": "Logout",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserLogout-Message",
+    "defaultMessage": "Are you sure you wish to logout of the Cognito？",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SystemLogout-Title",
+    "defaultMessage": "Exit",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SystemLogout-Message",
+    "defaultMessage": "Are you sure you wish to exit the Cognito System？",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-Title",
+    "defaultMessage": "User Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-AutoLogoutTile",
+    "defaultMessage": "Login Timeout Setting",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-AutoLogoutTime",
+    "defaultMessage": "Login Timeout",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-ChangePWD",
+    "defaultMessage": "Change Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-OldPWD",
+    "defaultMessage": "Old Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-NewPWD",
+    "defaultMessage": "New Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserSetting-ConfirmNewPWD",
+    "defaultMessage": "Confirm Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ChangePassword-Title",
+    "defaultMessage": "Change Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ChangePassword-Message",
+    "defaultMessage": "Enter a new password to access the system.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ChangePassword-ConfirmNewPWD",
+    "defaultMessage": "Confirm Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_ForgotPassword_Title",
+    "defaultMessage": "Enter your email address or request a password change from your administrator.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_ChangePassword_PWDResetCode",
+    "defaultMessage": "Password Reset Code",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_ChangePassword_PWDResetCod_Required",
+    "defaultMessage": "Password Reset Code is required.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_ChangePassword_CodeSent",
+    "defaultMessage": "Please enter the password reset code that was emailed to you and a new password.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ChangePassword-ConfirmOK",
+    "defaultMessage": "Your password has been changed. Please log in to the system with the new password.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ChangePassword-Text_ChangePassword_Confirm",
+    "defaultMessage": "Your password has been changed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-Title",
+    "defaultMessage": "Change Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-Message1",
+    "defaultMessage": "Set a temporary password.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-Message2",
+    "defaultMessage": "The user will need to change their password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-Message3",
+    "defaultMessage": "immediately after the next login.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-NewPWD",
+    "defaultMessage": "Temporary Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-TemporaryPassword-ConfirmNewPWD",
+    "defaultMessage": "Confirm Temporary Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Legal-Title",
+    "defaultMessage": "Legal Term Announcement",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Legal-Message",
+    "defaultMessage": "Cognito Health was founded in 2012 and is dedicated to improving health and healthcare by increasing value for patients and healthcare\nsystems. The company’s primary mission is to build medical devices of high quality and reliability that improve patient outcomes and lower\nhealthcare cost. The international team at Cognito Health are experts in a variety of fields ranging from medicine, technology, and policy to\nengineering, user design, and regulatory knowledge. Our multi-faceted team helps bring unparalleled insights into the healthcare process.\nTogether with our strategic partners, we strive to develop technological innovations that empower healthcare providers in primary care\nsettings Cognito Health was created in 2012 and was dedicated to improving health and healthcare by increasing value for patients and healthcare\nsystems. The company’s primary mission is to build medical devices of high quality and reliability that improve patient outcomes and\nlower healthcare cost. The international team at Cognito Health are experts in a variety of fields ranging from medicine, technology, and policy\nto engineering, user design, and regulatory knowledge. Our multi-faceted team helps bring unparalleled insights into the healthcare process.\nTogether with our strategic partners, we strive to develop technological innovations that empower healthcare providers in primary care\nsettings. Cognito Health was created in 2012 and was dedicated to improving health and healthcare by increasing value for patients and healthcare\nsystems. The company’s primary mission is to build medical devices of high quality and reliability that improve patient outcomes and\nlower healthcare cost. The international team at Cognito Health are experts in a variety of fields ranging from medicine, technology, and policy\nto engineering, user design, and regulatory knowledge. Our multi-faceted team helps bring unparalleled insights into the healthcare process.\nTogether with our strategic partners, we strive to develop technological innovations that empower healthcare providers in primary care\nsettings.Cognito Health was created in 2012 and was dedicated to improving health and healthcare by increasing value for patients and healthcare\nsystems. The company’s primary mission is to build medical devices of high quality and reliability that improve patient outcomes and\nlower healthcare cost. The international team at Cognito Health are experts in a variety of fields ranging from medicine, technology, and policy\nto engineering, user design, and regulatory knowledge. Our multi-faceted team helps bring unparalleled insights into the healthcare process.\nTogether with our strategic partners, we strive to develop technological innovations that empower healthcare providers in primary care\nsettings. Cognito Health was created in 2012 and was dedicated to improving health and healthcare by increasing value for patients and healthcare\nsystems.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SystemError-Title",
+    "defaultMessage": "System Abnormality Detected",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SystemError-MessageTitle",
+    "defaultMessage": "The system detects the following abnormality at Bed XXX：",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SystemError-MessageContext",
+    "defaultMessage": "Please refer to the user manual for more information on troubleshooting.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Message-Title",
+    "defaultMessage": "Message",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Message-Message1",
+    "defaultMessage": "Please save the Control Box and Dashboard alert settings before leaving this page.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-Title",
+    "defaultMessage": "Sensor Life Warning",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-exceeded",
+    "defaultMessage": "The Sensor Module on bed XXX has exceeded its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-reaching",
+    "defaultMessage": "The Sensor Module on bed XXX is reaching its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-exceededContent",
+    "defaultMessage": "The Sensor Module has exceeded its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-reachingContent",
+    "defaultMessage": "The Sensor Module is reaching its lifetime use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-Error",
+    "defaultMessage": "Please replace the Sensor Module and refer to the user manual for more information on troubleshooting.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-Warning",
+    "defaultMessage": "Please replace the Sensor Module.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-Lifetime",
+    "defaultMessage": "Time used",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-SensorLifeWarning-hrs",
+    "defaultMessage": "hrs",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-Title",
+    "defaultMessage": "Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-SCServer",
+    "defaultMessage": "SC Station IP",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-NursingStationCode",
+    "defaultMessage": "Nurse Station",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-ShowName",
+    "defaultMessage": "Care Unit Name",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-LocalNetwork",
+    "defaultMessage": "Device Network",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-LocalIP",
+    "defaultMessage": "IP",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-LocalMask",
+    "defaultMessage": "Subnet Mask",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-LocalGateway",
+    "defaultMessage": "Default Gateway",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-SoftwareVersion",
+    "defaultMessage": "Software Version",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-SCStation",
+    "defaultMessage": "SC Station",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-DataHub",
+    "defaultMessage": "DataHub",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-BackendServer",
+    "defaultMessage": "Back-end Server",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Settings-SCDashboard",
+    "defaultMessage": "Dashboard",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Title",
+    "defaultMessage": "Box Pairing",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-StationTitle",
+    "defaultMessage": "SC Station",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Box",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Bed",
+    "defaultMessage": "Bed ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-IP",
+    "defaultMessage": "IP",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Firmware",
+    "defaultMessage": "Firmware",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail",
+    "defaultMessage": "Details »",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-Title",
+    "defaultMessage": "Control Box Details",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-BedMatching",
+    "defaultMessage": "Bed Pairing Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-LocalBed",
+    "defaultMessage": "Bed Number",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-HardwareInfo",
+    "defaultMessage": "Hardware Information",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-SensableBedsideAlerts",
+    "defaultMessage": "Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-HardwareID",
+    "defaultMessage": "Serial Number",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-IP",
+    "defaultMessage": "IP",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-ConnectionMethod",
+    "defaultMessage": "Connection Method",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-HardwareVersion",
+    "defaultMessage": "Hardware Version",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-FirmwareVersion",
+    "defaultMessage": "Firmware Version",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-SoftwareVersion",
+    "defaultMessage": "Software Version",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-SensableSensorPad",
+    "defaultMessage": "Sensor Pad",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-HardwareID2",
+    "defaultMessage": "Serial Number",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-Remove",
+    "defaultMessage": "Remove Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-RemoveContext",
+    "defaultMessage": "Remove Control Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-RemoveConfirm",
+    "defaultMessage": "Are you sure you want to remove the Control Box?",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-BoxManagement-Detail-Text_BoxManagement_Detail_RemoveSuccess",
+    "defaultMessage": "Control Box removed from Care Unit.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Button_AddBoxesToStation",
+    "defaultMessage": "Add Control Boxes",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Message_NoBoxesToStation",
+    "defaultMessage": "There are no Control Boxes assigned to this Care Unit.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Label_AvailableBoxes",
+    "defaultMessage": "Available Control Boxes",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Button_AddToStation",
+    "defaultMessage": "Assign to Care Unit",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Detail_AssignmentError",
+    "defaultMessage": "Assignment failed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Detail_Assigned",
+    "defaultMessage": "Assigned",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxManagement_Pairing_Success",
+    "defaultMessage": "Box pairing updated.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Title",
+    "defaultMessage": "User Account",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-StationTitle",
+    "defaultMessage": "Station",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Account",
+    "defaultMessage": "User ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Name",
+    "defaultMessage": "Name",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Email",
+    "defaultMessage": "Email",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-EmailDesc1",
+    "defaultMessage": "Provide an email address for this user to allow self-serve password reset.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-EmailDesc2",
+    "defaultMessage": "Note that if provided, email-based password reset sends a temporary password as plain text to the provided email address.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-LastUpdated",
+    "defaultMessage": "Last Updated",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail",
+    "defaultMessage": "Details »",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-EditTitle",
+    "defaultMessage": "Edit Account",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-AddTitle",
+    "defaultMessage": "New Account",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-Title",
+    "defaultMessage": "Account Details",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-AccountInfo",
+    "defaultMessage": "Account Information",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-Name",
+    "defaultMessage": "Name",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-Email",
+    "defaultMessage": "Email",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-LoginAccount",
+    "defaultMessage": "Login User ID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-LoginPWD",
+    "defaultMessage": "Login Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-ConfirmPassword",
+    "defaultMessage": "Confirm Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-Message1",
+    "defaultMessage": "The user will need to change the password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-Message2",
+    "defaultMessage": "immediately after the next login",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-NursingStation",
+    "defaultMessage": "Care Unit",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-AccountType",
+    "defaultMessage": "User Role",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-UsePeriod",
+    "defaultMessage": "Expiration Date",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-UseHistory",
+    "defaultMessage": "Account History",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-LastLogin",
+    "defaultMessage": "Last Login",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-LastModify",
+    "defaultMessage": "Last Modified",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-CreateDate",
+    "defaultMessage": "Date Created",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-DeleteUser",
+    "defaultMessage": "Delete User Account",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-UserManagement-Detail-DeleteUserContext",
+    "defaultMessage": "Delete User Account Content",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Title",
+    "defaultMessage": "Help",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme",
+    "defaultMessage": "Select topic",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-1",
+    "defaultMessage": "Dashboard Overview",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-2",
+    "defaultMessage": "Adding Patients",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-3",
+    "defaultMessage": "Removing Patients",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-4",
+    "defaultMessage": "Managing Control Boxes",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-5",
+    "defaultMessage": "Transferring Patients",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-6",
+    "defaultMessage": "Patient Settings",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-7",
+    "defaultMessage": "Managing User Accounts",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Help-Theme-8",
+    "defaultMessage": "New User Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-Title",
+    "defaultMessage": "About",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-Company",
+    "defaultMessage": "© Cognito Health Inc. All Rights Reserved.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-Context",
+    "defaultMessage": "Cognito 2.5 System is a patient safety monitoring system that provides bed exit/immobility related alerts for fall prevention and repositioning alerts for pressure injury assistance. Components of the system include the control box, sensor pad, data analytics, dashboard and mobile application.\n\nLocalization languages:\nEnglish (United States), Chinese (Traditional, Taiwan)",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-OfficialWebsite",
+    "defaultMessage": "Official Website",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-OfficialWebsite-URL",
+    "defaultMessage": "https://www.cognitohealth.com/",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-TechnicalSupport",
+    "defaultMessage": "Technical Support",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-TechnicalSupport-URL",
+    "defaultMessage": "https://www.cognitohealth.com/",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-TermsOfService",
+    "defaultMessage": "Terms of Service",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-LegalNotices",
+    "defaultMessage": "Legal Term Announcement",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-SystemConfigurationTitle",
+    "defaultMessage": "Mobile App Requirement:",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Abour-SystemConfiguration",
+    "defaultMessage": "Android Mobile App |Android 8 or above;\n        iOS Mobile App |iOS 10 or above",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-License-Expired",
+    "defaultMessage": "License Expired",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-License-DialogTile",
+    "defaultMessage": "Software License Expired",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-License-DialogContent",
+    "defaultMessage": "SC system software license expired. Please contact your system administrator to renew this license",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Title_Box_Configuration",
+    "defaultMessage": "Box Configuration",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Title_BoxStatus",
+    "defaultMessage": "Box Configuration Status",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Title_PrepareConfig",
+    "defaultMessage": "Prepare Configuration for Box",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Button_AddProfile",
+    "defaultMessage": "Add Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Table_ConfigStatus",
+    "defaultMessage": "Configuration Status",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Table_LastUpdate",
+    "defaultMessage": "Last Configuration Update",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Table_CurrentProfile",
+    "defaultMessage": "Current Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Table_PreparedProfile",
+    "defaultMessage": "Desired Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Tab_Configurations",
+    "defaultMessage": "Configurations",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Tab_NetworkProfiles",
+    "defaultMessage": "Network Profiles",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_SelectProfile",
+    "defaultMessage": "Select Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_NetworkProfile",
+    "defaultMessage": "Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Button_Prepare",
+    "defaultMessage": "Prepare",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_BoxSerialNumbers",
+    "defaultMessage": "Box Serial Numbers",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_OnePerLine",
+    "defaultMessage": "Enter Box Serial Numbers one per line",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_PrepareSuccess",
+    "defaultMessage": "Boxes successfully prepared. Please proceed to Step 2.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Success",
+    "defaultMessage": "Success",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Error",
+    "defaultMessage": "Error",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Expired",
+    "defaultMessage": "Expired",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Remaining",
+    "defaultMessage": "Remaining",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_ProfileName",
+    "defaultMessage": "Network Profile Name",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_ConnectionType",
+    "defaultMessage": "Connection Type",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_NetworkProfileDetails",
+    "defaultMessage": "Network Profile Details",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Wifi",
+    "defaultMessage": "WiFi",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_SSID",
+    "defaultMessage": "SSID",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Encryption",
+    "defaultMessage": "Encryption",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Band",
+    "defaultMessage": "Band",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_DataRate",
+    "defaultMessage": "Data Rate",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Country",
+    "defaultMessage": "Country",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Identity",
+    "defaultMessage": "Identity",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Password",
+    "defaultMessage": "Password",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_CreatedAt",
+    "defaultMessage": "Created At",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_CreateProfile",
+    "defaultMessage": "Create Network Profile",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Clear",
+    "defaultMessage": "Clear",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_ProfileCreated",
+    "defaultMessage": "Network Profile Created",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_DeleteProfileSuccess",
+    "defaultMessage": "Network Profile successfully removed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_DeleteConfigurationsSuccess",
+    "defaultMessage": "Box Configurations successfully removed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Step1Instructions",
+    "defaultMessage": "Create or select a Network Profile, then enter a list of control box serial numbers and click Prepare.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Step2Instructions",
+    "defaultMessage": "For each prepared control box, perform the following procedure:",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Step2Instructions1",
+    "defaultMessage": "Connect the control box to an ethernet cable connected to the internet.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Step2Instructions2",
+    "defaultMessage": "Hold down the control box button and plug in the power. Continue holding the control box button until the light turns blue.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_Step2Instructions3",
+    "defaultMessage": "Leave box connected until you see a Success message in the table below.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfig_Text_InvalidPassword",
+    "defaultMessage": "Only these special characters are allowed: @ ! & ^ - _ .",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E001",
+    "defaultMessage": "This column cannot be empty",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E002",
+    "defaultMessage": "Only English letters, numbers, \".\", \"-\", \"_\" are allowed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E003",
+    "defaultMessage": "Input length cannot be less than 6 characters",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E004",
+    "defaultMessage": "Input length cannot be less than 8 characters",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E005",
+    "defaultMessage": "The passwords do not match",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E006",
+    "defaultMessage": "New password cannot be empty",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E007",
+    "defaultMessage": "New password may only contain English letters, numbers, \".\", \"-\", \"_\".",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E008",
+    "defaultMessage": "Password cannot be empty",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E009",
+    "defaultMessage": "Account cannot be empty",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E010",
+    "defaultMessage": "Datetime column error",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E011",
+    "defaultMessage": "Password reset failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E012",
+    "defaultMessage": "Only letters and numbers are allowed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E013",
+    "defaultMessage": "The maximum length is 9 characters.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E014",
+    "defaultMessage": "This field is required.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E015",
+    "defaultMessage": "Please resolve validation errors and retry.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E016",
+    "defaultMessage": "The maximum length is 20 characters.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E017",
+    "defaultMessage": "Not Found",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E018",
+    "defaultMessage": "Sorry, the page you visited does not exist.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E019",
+    "defaultMessage": "A higher permission-level is required to check-in a patient.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E020",
+    "defaultMessage": "Session timeout. Please reload the page and try again.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-E021",
+    "defaultMessage": "A higher permission-level is required to access patient detail page.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage",
+    "defaultMessage": "An Error Occurred",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-001",
+    "defaultMessage": "System log-out because of a connection timeout.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-101",
+    "defaultMessage": "Wrong Account or Wrong Password.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-102",
+    "defaultMessage": "This account does not belongs to this nursing station.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-103",
+    "defaultMessage": "This account has expired.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-104",
+    "defaultMessage": "This account already exists.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-105",
+    "defaultMessage": "Old password is incorrect, please re-enter the password.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-106",
+    "defaultMessage": "Password Change Failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-201",
+    "defaultMessage": "Patient Check-in Failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-202",
+    "defaultMessage": "Patient Transfer Failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-203",
+    "defaultMessage": "Control Box settings and Dashboard alert settings update failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-204",
+    "defaultMessage": "Patient Check-out Failed.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-300",
+    "defaultMessage": "Cannot change the Control Box pairing during the Patient Check-in.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-301",
+    "defaultMessage": "The bed is already paired with other Control Box. Please re-enter another bed number.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-302",
+    "defaultMessage": "All 40 beds are paired with Control Boxes, please clear the existed pairing.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-303",
+    "defaultMessage": "Cannot clear the Control Box pairing during the Patient Check-in.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-304",
+    "defaultMessage": "Cannot remove the Control Box pairing during the Patient Check-in.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-404",
+    "defaultMessage": "Care Unit disconnect, please contact the system administrator.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-900",
+    "defaultMessage": "System error, please contact the system administrator.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-901",
+    "defaultMessage": "Another user is modifying the settings.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-903",
+    "defaultMessage": "No Corresponding Information",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-904",
+    "defaultMessage": "System Update Failed",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-910",
+    "defaultMessage": "Incorrect Parameter Error",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-912",
+    "defaultMessage": "The bed is in use.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-913",
+    "defaultMessage": "The patient has been checked out.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-914",
+    "defaultMessage": "The patient is not checked in the system.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-ErrorMessage-999",
+    "defaultMessage": "Control Box settings and Dashboard alert settings have not been saved.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_AuthErrorMessage_11",
+    "defaultMessage": "This account or email already exists.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_AuthErrorMessage_12",
+    "defaultMessage": "User ID is invalid.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfigErrorMessage_1",
+    "defaultMessage": "Resource not found",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfigErrorMessage_11",
+    "defaultMessage": "Password must be equal to or greater than 8 characters in length.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfigErrorMessage_12",
+    "defaultMessage": "The length of the SSID and Identity combined must be less than 143 characters.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfigErrorMessage_13",
+    "defaultMessage": "A network profile already exists with this name.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_BoxConfigErrorMessage_21",
+    "defaultMessage": "Network policies cannot be deleted for which there are existing box configurations.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Dashboard-Tab-Notifications",
+    "defaultMessage": "Notifications",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-Dashboard-Tab-AllPatients",
+    "defaultMessage": "All Patients",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Dashboard_Text_PatientsMonitored",
+    "defaultMessage": "Patients Being Monitored",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Dashboard_Text_Hours",
+    "defaultMessage": "hours",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text-System-ErrorMessage-ServiceDiscovery",
+    "defaultMessage": "An error occurred, please reload the page.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Button_Reload",
+    "defaultMessage": "Reload",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_Button_Retry",
+    "defaultMessage": "Retry",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_System_ErrorMessage_ConnectionTitle",
+    "defaultMessage": "System Disconnected",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_System_ErrorMessage_ConnectionRetry",
+    "defaultMessage": "System connection lost. Retrying in XXX.",
+    "filepath": "src/Messages.js"
+  },
+  {
+    "id": "Text_About_Title",
+    "defaultMessage": "Predictive Patient Monitoring",
+    "filepath": "src/Messages.js"
+  }
+]

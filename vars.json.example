@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "Deployment": "latest-dev-v3",
+    "PrettyDeploymentName": "latest-dev-v3",
+    "Region": "us-east-2",
+    "Environment": "us-east-2-dev",
+    "DeploymentUsage": "development",
+    "ReleaseVersion": "v3_fixes",
+    "TimeZone": "US/Pacific"
+  },
+  "WebUI": {
+    "Version": "v1.2.4"
+  },
+  "KPIDashboard": {
+    "Hostname": "kpi-latest-dev-v3.deployments.cognitohealth.io"
+  },
+  "SCStation": {
+    "Hostname": "scstation-latest-dev-v3.deployments.cognitohealth.io"
+  },
+  "Data": {
+    "APIEndpoint": "https://bikcuecj7rhijie737u5wgljiq.appsync-api.us-east-2.amazonaws.com/graphql",
+    "APIKey": "da2-n3akhhk4hbawjpq3vwpnfzvdbq"
+  },
+  "NurseCall": {
+    "Hostname": "nurse-call.services.us-east-2-dev.cognitohealth.io",
+    "Enabled": false
+  },
+  "Auth":  {
+    "Hostname": "auth-latest-dev-v3.deployments.cognitohealth.io",
+    "RoleSet": "default",
+    "CognitoUserPoolId": "us-east-2_bbbD273oI",
+    "CognitoWebUIClientId": "74t34r8rse2ndd5u745ji9e5g0",
+    "CognitoAndroidClientId": "fcvl0il3masudlptjqj08oocf",
+    "CognitoIOSClientId": "7u00psevcnhg5946p352fvfe9g"
+  },
+  "BoxConfig": {
+    "Hostname": "box-config.services.us-east-2-dev.cognitohealth.io"
+  }
+}
